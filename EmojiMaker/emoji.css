@@ -1,0 +1,78 @@
+*{
+    background-color: skyblue;
+}
+
+h1{
+    text-align: center;
+    font-size: 100px;
+}
+/* .input{
+  height: 100px;
+    width: 100px; 
+
+} */
+.boxes{
+    display: flex;
+    justify-content:space-around;
+    position: relative;
+
+
+}
+.box{
+    position: relative;
+    background-color: rebeccapurple;
+    left: 50px;
+    height:400px;
+    width:700px;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    border:6px solid black;
+
+}
+.icon{
+    height:200px;
+    width:200px;
+    border: 5px solid black;
+    cursor:pointer;
+
+}
+#eye1{
+    background-image: url("long.png");
+    background-size: cover;
+    transform: translateX(0);
+}
+#eye2{
+    background-image: url("rolling.png");
+    background-size: cover;
+    transform: translateX(0);
+
+}
+#eye3{
+    background-image: url("normal.png");
+    background-size: cover;
+    transform: translateX(0);
+
+}
+.colour{
+    position: absolute;
+    /* top: 0;
+    left: 0; */
+}
+
+#colour1{
+    background-image: url("yellow.png");
+    background-size: cover;
+    transform: translateX(100%);
+}
+#colour2{
+    background-image: url("red.png");
+    background-size: cover;
+    transform: translateX(100%);
+}
+#colour3{
+    background-image: url("green.png");
+    background-size: cover;
+    transform: translateX(100%);
+}
+
